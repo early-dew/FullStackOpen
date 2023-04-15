@@ -17,6 +17,6 @@ sequenceDiagram
  deactivate server
  browser->>server: GET raw data of the notes
  activate server
- server-->>browser: 
+ server-->>browser: Sends JSON file
  deactivate server
 ```
