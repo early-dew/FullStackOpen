@@ -9,11 +9,11 @@ sequenceDiagram
  browser->>browser: Notes page reloads
  browser->>server: GET style sheet
  activate server
- server-->>browser: Sends a CSS file
+ server-->>browser: Sends CSS file
  deactivate server
  browser->>server: GET JavaScript code
  activate server
- server-->>browser: Sends a JavaScript file
+ server-->>browser: Sends JavaScript file
  deactivate server
  browser->>server: GET raw data of the notes
  activate server
