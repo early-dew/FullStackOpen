@@ -1,3 +1,5 @@
+```mermaid
 sequenceDiagram
-    Alice ->>+ Bob: Here's a message!
-    Bob ->>- Alice: Hmm, ok, thanks.
+ participant user
+ participant device
+```
