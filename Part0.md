@@ -8,9 +8,13 @@ sequenceDiagram
  deactivate server
  browser->>browser: reloads the Notes page
  browser->>server: GET style sheet
- server-->>browser: css file
+ activate server
+ server-->>browser: sends a CSS file
+ deactivate server
  browser->>server: GET JavaScript code
- server-->>browser: JavaScript file
+ activate server
+ server-->>browser: sends a JavaScript file
+ deactivate server
  browser->>server: GET raw data of the notes
  server-->>browser: 
 ```
