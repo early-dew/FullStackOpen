@@ -1,6 +1,6 @@
 ```mermaid
 sequenceDiagram
- participant user
- participant device
- user->>device:request
+ participant browser
+ participant server
+ browser->>server:request
 ```
