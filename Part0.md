@@ -4,7 +4,7 @@ sequenceDiagram
  participant server
  browser->>server: POST request to the server address new_note
  activate server
- server-->>browser:  Server asks to do a GET request to the address notes
+ server-->>browser:  Asks to do a GET request to the address notes
  deactivate server
  browser->>browser: Notes page reloads
  browser->>server: GET style sheet
