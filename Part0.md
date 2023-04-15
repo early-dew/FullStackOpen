@@ -1,4 +1,3 @@
-```mermaid
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-```
+sequenceDiagram
+    Alice ->>+ Bob: Here's a message!
+    Bob ->>- Alice: Hmm, ok, thanks.
