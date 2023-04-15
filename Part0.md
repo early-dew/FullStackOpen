@@ -6,7 +6,7 @@ sequenceDiagram
  activate server
  server-->>browser:  Server asks to do a GET request to the address notes
  deactivate server
- browser->>browser: Reloads the Notes page
+ browser->>browser: Notes page reloads
  browser->>server: GET style sheet
  activate server
  server-->>browser: Sends a CSS file
@@ -16,5 +16,7 @@ sequenceDiagram
  server-->>browser: Sends a JavaScript file
  deactivate server
  browser->>server: GET raw data of the notes
+ activate server
  server-->>browser: 
+ deactivate server
 ```
